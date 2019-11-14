@@ -6,7 +6,7 @@
 
 3. **Epochs** - A pass through the complete dataset is called an epoch. After an epoch the network has seen all the images. In general an epoch is broken down into iterations where batches of data are processed. This is done due to limitation in GPU memory capacity.
 
-4. **1x1 Convolution** - A 1x1 convolution is a feature combiner, it is used to reduce the number of channels, and it does not alter the shape of the image in any way. It is a useful operator as it combines relevant information after the features of an image have been extracted.
+4. **1x1 Convolution** - A 1x1 convolution is a feature combiner, it is used to reduce the number of channels, and it does not alter the shape of the image in any way. It combines relevant information across channels after the features of an image have been extracted.
 
 5. **3x3 Convolution** - The most important kernel, it is used to extract information/features from images/channels. A 3x3 can be stacked with another 3x3 to get a receptive field of 5x5, with fewer trainable parameters than using a 5x5 kernel. 
 
