@@ -1,16 +1,25 @@
 ## Final Results
 
 ```
-                metric_name  accuracy
-                
-0         gender_output_acc  0.888889
-1  image_quality_output_acc  0.584821
-2            age_output_acc  0.447421
-3         weight_output_acc  0.652778
-4            bag_output_acc  0.697917
-5       footwear_output_acc  0.670635
-6           pose_output_acc  0.857143
-7        emotion_output_acc  0.704365
+                  metric_name     value
+                  
+0                        loss  6.113962
+1          gender_output_loss  0.267376
+2   image_quality_output_loss  0.883270
+3             age_output_loss  1.261447
+4          weight_output_loss  0.901494
+5             bag_output_loss  0.746320
+6        footwear_output_loss  0.760049
+7            pose_output_loss  0.419371
+8         emotion_output_loss  0.874636
+9           gender_output_acc  0.888889
+10   image_quality_output_acc  0.584821
+11             age_output_acc  0.447421
+12          weight_output_acc  0.652778
+13             bag_output_acc  0.697917
+14        footwear_output_acc  0.670635
+15            pose_output_acc  0.857143
+16         emotion_output_acc  0.704365
 ```
 
 ## Logs
