@@ -1,5 +1,18 @@
 ## Final Results
 
+```
+                metric_name  accuracy
+                
+0         gender_output_acc  0.888889
+1  image_quality_output_acc  0.584821
+2            age_output_acc  0.447421
+3         weight_output_acc  0.652778
+4            bag_output_acc  0.697917
+5       footwear_output_acc  0.670635
+6           pose_output_acc  0.857143
+7        emotion_output_acc  0.704365
+```
+
 ## Logs
 
 Epoch 1/50
